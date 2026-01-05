@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  
+}
+.Parent{
+  height:300px ;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgb(38, 37, 37);
+  
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  border-radius: 45%;
+  padding-left: 30px;
+  padding: 10px;
+  
+
+}
+button{
+  border:none;
+  padding: 10px;
+  border-radius: 10px;
+
+}
