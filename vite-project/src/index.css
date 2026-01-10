@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+ color: #d7d7d7;
   
 }
 html,body{
@@ -15,9 +15,10 @@ html,body{
   height: 100vh;
   width: 100vw;
   background-color: black;
-  padding: 30px;
+  padding: 25px;
   display: flex;
-  gap: 30px;
+ 
+  
 }
 .card{
   height: 330px;

@@ -19,8 +19,6 @@ const Card = () => {
             </div>
           </div>
           <div className="bottom">
-            
-             
               <h3>$120/hr</h3>
                 <p>Bangalore,india</p>
                  <button>Apply now</button>

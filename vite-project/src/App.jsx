@@ -6,10 +6,14 @@ import User from "./components/user"
 const App = () => {
   
  return (
-   < div>
-    <User/>
+   < div className='parent'>
+    <Card /> 
     <Card/>
-    <User/>
+     <Card/> 
+    <Card/>
+     <User/>
+    
+
     
         
 
