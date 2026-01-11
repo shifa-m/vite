@@ -1,6 +1,17 @@
 import React from 'react'
+import Card from './Card'
 
-const User = () => {
+const User = (props) => {
+//    console.log(props);
+//   return(
+   
+//     <div style={{color:'white'}}>
+//       Shifa
+//     </div>
+//   )
+// }
+  
+
   const jobOpenings = [
   {
     id: 1,
@@ -134,15 +145,18 @@ const User = () => {
   }
 ];
 
-console.log(jobOpenings);
+// console.log(jobOpenings);
 
 
-  jobOpenings.map(function(){
-    console.log(jobOpenings)
-  })
+//   jobOpenings.map(function(){
+//     console.log(jobOpenings)
+//   })
+console.log(props)
   return (
-    <div>
-      <h1>{jobOpenings}</h1>
+    <div className='parent'>
+      {jobOpenings.map(function(elem){
+        return <Card/>
+      })}
     </div>
   )
 }
