@@ -45,9 +45,10 @@ const App = () => {
    < div className='parent'>
     {arr.map(function(elem){
       return <User name={elem}/>
+
     })}
     
-    
+    <Card/>
 
     
         
