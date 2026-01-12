@@ -2,21 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+ 
   
 }
 html,body{
   height: 100%;
   width: 100%;
   background-color: #0c0707;
+  display:flex ;
+  
 }
 .parent{
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   background-color: black;
   padding: 25px;
   display: flex;
+  gap: 0px;
+  margin: 0;
+  
+  
+  
  
   
 }
@@ -29,6 +38,7 @@ html,body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 .card.top{
   display: flex;
@@ -36,15 +46,15 @@ html,body{
   justify-content: center;
   margin-bottom: 30px;
 }
-.top img{
+.top img {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   border: 1px solid #dadada ;
   padding: 2px;
+  margin-bottom: 10px;
   display: flex;
-  
-  
+  object-fit: cover;
   
 }
 .top button{
@@ -56,7 +66,8 @@ html,body{
   border-radius: 5px;
   gap:3px;
   background-color: transparent;
-  color: #595656;
+  color: #363535;
+  
 }
 
 .center h3{
@@ -97,10 +108,11 @@ border-radius: 5px;
 .bottom button{
   background-color: black;
   color: #595656;
-  padding: 5px 10px;
+  padding: 5px 10px ;
   border: none;
   border-radius: 6px;
   column-width: 600;
+  margin-left: 130px;
 }
 .bottom h3{
   font-size: 17px;
@@ -109,4 +121,5 @@ border-radius: 5px;
 .bottom p{
   font-size: 10px;
   color:#8b8b8b ;
+ 
 }
